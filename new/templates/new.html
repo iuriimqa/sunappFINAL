@@ -1,0 +1,39 @@
+{%extends 'base.html'%}
+
+{%block content%}
+
+{% load static %}
+    <main>
+        <section id="widg" >
+            <div id="widgHeader">
+                <p>Golden hour begins at</p>
+            </div>
+            <h1 id="time">15:34</h1>
+            <div class="texts">
+                <h3>Golden Weather:</h3>
+                <h3 id="temp">25°</h3>
+            </div>
+            <div class="texts">
+                <h3 id="feels">Feels like: 27°</h3>
+                <img id="weatherLogo">
+            </div>
+            <div class="texts">
+                <h3>Chance of rain:</h3>
+                <h3 id="rain">2%</h3>
+            </div>
+        </section>
+        <section id="locats">
+            <div id="locatsHeader">
+                <p>Photo locations nearby</p>
+            </div>
+            <div class="locatsCol" id="locatsLeft">
+                <div class="locat" id="locat1">
+                    <p>Swimming pool</p>
+                </div>
+            </div>
+            <div class="locatsCol" id="locatsRight">
+            </div>
+        </section>
+    </main>
+    <script src='{% static 'update.js' %}'></script>
+{%endblock%}
