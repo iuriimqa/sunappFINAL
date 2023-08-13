@@ -2,7 +2,7 @@ asgiref==3.7.2
 certifi==2022.12.7
 distlib==0.3.6
 dj-database-url==2.0.0
-Django==4.2.1
+Django==3.2.20
 djangorestframework==3.14.0
 Faker==18.10.1
 filelock==3.12.0
