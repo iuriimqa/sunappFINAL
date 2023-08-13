@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(c(1=e!udy&)ws23pq5n9y3druo5dc5+)de5m*xpb22k+ujzv6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sunphoto.onrender.com']
 
 
 # Application definition
